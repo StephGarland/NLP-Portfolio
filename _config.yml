@@ -1,0 +1,10 @@
+# basic options
+title: NLP Portfolio
+author: Steph Garland
+email: garlasl1@student.op.ac.nz
+description: BIT Project Portfolio for Natural Language Processing Group
+github_username:  StephGarland
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
