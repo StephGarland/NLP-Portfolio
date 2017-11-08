@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+[Home](https://stephgarland.github.io/NLP-Portfolio).
 
 <table>
   <tbody>
     <tr>
-      <th>Week Beginning</th>
-      <th>Main Task(s)</th>
+      <th align="left">Week Beginning</th>
+      <th align="left">Main Task(s)</th>
     </tr>
     <tr>
       <td>July 24</td>
