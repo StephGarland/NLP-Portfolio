@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Link to another page](another-page).
+[Project Timeline](https://stephgarland.github.io/NLP-Portfolio/timeline).
 
 # [](#header-1)Project 1: Natural Language Processing (NLP)
 ### [](#header-3)This semester we had two project objectives:
