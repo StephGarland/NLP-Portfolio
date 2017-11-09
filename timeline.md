@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-[Home](https://stephgarland.github.io/NLP-Portfolio)
+[Home](https://stephgarland.github.io/NLP-Portfolio)<br>
+[Scope](https://stephgarland.github.io/NLP-Portfolio/scope)
 
 <table>
   <tbody>
