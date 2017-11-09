@@ -4,6 +4,7 @@ layout: default
 
 [Project Timeline](https://stephgarland.github.io/NLP-Portfolio/timeline)<br>
 [Scope](https://stephgarland.github.io/NLP-Portfolio/scope)
+[CV](https://stephgarland.github.io/NLP-Portfolio/CV.pdf)
 
 # [](#header-1)Project 1: Natural Language Processing (NLP)
 ### [](#header-3)This semester we had two project objectives:
