@@ -10,12 +10,12 @@ layout: default
       <th align="left">Main Task(s):</th>
     </tr>
     <tr>
-      <td>July 24</td>
+      <td>July 17</td>
       <td>Readings: <br> 
           Deep Learning: Udacity playlist</td>
     </tr>
     <tr>
-      <td>July 17</td>
+      <td>July 24</td>
       <td>Software installation on Project Room and personal machines:
         <ul>
           <li>Anaconda (Packet Manager)</li>
