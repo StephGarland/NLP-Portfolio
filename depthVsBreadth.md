@@ -4,11 +4,8 @@ layout: default
 [Home](https://stephgarland.github.io/NLP-Portfolio)<br>
 [Project Timeline](https://stephgarland.github.io/NLP-Portfolio/timeline)<br>
 [Scope](https://stephgarland.github.io/NLP-Portfolio/scope)<br>
+[Depth vs. Breadth](https://stephgarland.github.io/NLP-Portfolio/depthVsBreadth)<br>
 [CV](https://stephgarland.github.io/NLP-Portfolio/CV.pdf)
-
-
-
-
 
 # [](#header-1)Depth-First vs. Breadth-First
 
