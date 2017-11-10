@@ -15,7 +15,7 @@ It sure seemed that way at times, and I think it took quite a bit of exploring t
 
 One of the websites I crawled that ended with a memory exception was on Princeton University (princeton.edu).<br>
 It ran from 6.31pm on 21/09/2017 to 7.36pm on 23/09.2017.<br>
-It searched ~1,876,251 pages, and gave me (NUMBER) samples for the Princeton file. <br>
+It gave me ~1,875,669 samples (each sample being the text from a single webpage) for the Princeton file. <br>
 The file is 3,624,844 kb. <br>
 To put this in perspective, Harry Potter and the Philosopher’s Stone as a .txt file is 479 kb - it would need to repeat 7,568 times to be of a similar size to the .txt file that contains the text scraped from the incomplete princeton.edu crawl. 
 
@@ -23,7 +23,7 @@ I’ve been running a crawl on The College of William and Mary (wm.edu) since 29
 
 ## [](#header-2)Responding to the realisation of scope:
 I realised how massive these projects were shortly after solving my domain vs. sub-domain mystery in week 8.<br> 
-(To recap briefly, up until that point I’d been setting ‘allowed_domains’ as www.example.edu, when setting it as example.edu was yielding a much more whole representation (LINK TO INFO PAGE)
+To summarise briefly, up until that point I’d been setting ‘allowed_domains’ as www.example.edu, when setting it as example.edu was yielding a much more whole representation. If run on the Otago Polytechnic website, for example, an allowed_domain of op.ac.nz would eventually attempt to crawl http://kate.ict.op.ac.nz/, whereas an allowed_domain of www.op.ac.nz would not.
 
 Following this realisation I made a few deliberate choices:
 
