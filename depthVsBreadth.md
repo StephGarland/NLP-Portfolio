@@ -16,17 +16,24 @@ layout: default
 Scrapy crawls by visiting a page, extracting all links from that page, and then repeating on each extracted link. 
 Some links can, and commonly are, filtered out - like pages already visited in the current crawl, links that are outside the allowed_domains, and links that are beyond the depth_limit setting.
 
-Nevertheless, the crawl pattern is tree like, for example:
+Nevertheless, the crawl pattern is tree like. Take this very simplified example:
+![](https://stephgarland.github.io/NLP-Portfolio/exampleTree.PNG)
 
 
 
+The home/index page contains links to the 'Students and Staff' page, and the 'News' page.<br>
+The 'Students and Staff' page contains links to the 'Blackboard' and 'Student Hub' pages. <br>
+The 'Blackboard' page has a link to the '100 Level Papers' page, and the 'Student Hub' page has links to 'Room Bookings' and 'Clubs and Socs'<br>
+And so on! Many pages that are all connected through this tree-like structure.<br>
 
-This tree can be traversed in Depth-first order, or Breadth-first order. 
+Trees can be traversed in Depth-first order, or Breadth-first order:
+![](https://camo.githubusercontent.com/81237833eeedea03b1f124ef97a2834f07e81e53/687474703a2f2f7777772e6373652e756e73772e6564752e61752f7e62696c6c772f4a757374736561726368312e676966)
+
 In the case of a complete domain crawl, traversal order isn’t so important; each method results in every page being visited, and that’s the objective! 
 But in the case of an incomplete traversal, the representation of the website as a whole is going to be quite different depending on whether the data was being obtained depth or breadth first. 
 
-In the above example, if the traversal was only able to get about halfway through the tree, the incomplete depth first traversal is going to have a very thorough representation of the Student branch, but would not get to the Alumni branch.
-An incomplete breadth-first order traversal will do a shallow visit to all branches. 
+In the above example, if the traversal was only able to get about halfway through the tree, the incomplete depth first traversal is going to have a very thorough representation of the Students and Staff branch, but would not get to the News branch at all.
+An incomplete breadth-first order traversal would visit both the Student and Staff Section, and the News Section, but would not traverse all the way down to that bottom layer. 
 
 #### [](#header-3)Traversal Settings in Scrapy:
 
