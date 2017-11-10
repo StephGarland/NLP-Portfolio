@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-[Home](https://stephgarland.github.io/NLP-Portfolio) <br>
-[Project Timeline](https://stephgarland.github.io/NLP-Portfolio/timeline)
+[Home](https://stephgarland.github.io/NLP-Portfolio)<br>
+[Project Timeline](https://stephgarland.github.io/NLP-Portfolio/timeline)<br>
+[Scope](https://stephgarland.github.io/NLP-Portfolio/scope)<br>
+[Depth vs. Breadth](https://stephgarland.github.io/NLP-Portfolio/depthVsBreadth)<br>
+[CV](https://stephgarland.github.io/NLP-Portfolio/CV.pdf)
 
 # [](#header-1)Scope
 Around week 6, Tom posited that it might be quicker to manually visit each page, and just copy/paste the desired text. 
